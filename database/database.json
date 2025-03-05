@@ -1,0 +1,248 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "User 1",
+      "email": "user1@gmail.com",
+      "password": "user1",
+      "token": "aj8FkK25wIwiRts6KPdW"
+    },
+    {
+      "id": 2,
+      "fullName": "User 2",
+      "email": "user2@gmail.com",
+      "password": "user2",
+      "token": "bj8FkK25wIwiRts6KPdW"
+    },
+    {
+      "fullName": "User 3",
+      "email": "user3@gmail.com",
+      "password": "user3",
+      "token": "hj8FkK25wIwiRts6KPdW",
+      "id": 3
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "questions": "Question 1: What does HTML stand for?",
+      "answers": [
+        "HyperText Markup Language",
+        "HyperTech More Language",
+        "HighText Machine Language",
+        "None of the above"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "questions": "Which of the following is a new element in HTML5?",
+      "answers": [
+        "<div>",
+        "<table>",
+        "<article>",
+        "<font>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "questions": "What is the purpose of the <canvas> element in HTML5?",
+      "answers": [
+        "To display database records",
+        "To draw graphics on the fly via scripting (like JavaScript)",
+        "To add a background canvas to web pages",
+        "To display 3D objects"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "questions": "Which HTML5 element is used to specify a footer for a document or section?",
+      "answers": [
+        "<bottom>",
+        "<footer>",
+        "<section>",
+        "<div>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "questions": "What is the correct HTML5 element for playing video files?",
+      "answers": [
+        "<media>",
+        "<video>",
+        "<film>",
+        "<mp4>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "topicId": 2,
+      "questions": "CSS là viết tắt của?",
+      "answers": [
+        "Creative Style Sheets",
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "topicId": 2,
+      "questions": "Muốn liên kết file HTML với file định nghĩa CSS ta dùng dòng nào sau đây?",
+      "answers": [
+        "<style src=”mystyle.css”>",
+        "<stylesheet>mystyle.css</stylesheet>",
+        "<link rel=”stylesheet” type=”text/css” href=”mystyle.css”>",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "topicId": 2,
+      "questions": "Thuộc tính nào định nghĩa CSS ngay trong 1 tag?",
+      "answers": [
+        "font",
+        "class",
+        "style",
+        "styles"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "topicId": 2,
+      "questions": "Đặt dòng liên kết với file CSS ở vùng nào trong file HTML?",
+      "answers": [
+        "Trong thẻ <body>",
+        "Trong thẻ <head>",
+        "Ở cuối file HTML",
+        "Ở đầu file HTML"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "topicId": 2,
+      "questions": "Làm sao để khi click chuột vào link thì tạo ra cửa sổ mới?",
+      "answers": [
+        "<a href=\"url\" new>",
+        "<a href=\"url\" target=\"new\">",
+        "<a href=\"url\" target=\"_blank\">",
+        "<a href=\"url\"blank=\"new\">"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        }
+      ],
+      "id": 5
+    }
+  ]
+}
